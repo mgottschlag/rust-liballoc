@@ -8,5 +8,5 @@ build = "./build.rs"
 name = "alloc"
 path = "rust/src/liballoc/lib.rs"
 
-[dependencies.core]
-git = "https://github.com/hackndev/rust-libcore"
+[dependencies]
+rust-libcore = "*"
